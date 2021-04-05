@@ -1,0 +1,19 @@
+Container(
+                    child: LiteRollingSwitch(
+                      value: false,
+                      textOn: "Company Code is",
+                      textOff: "What is this",
+                      textSize: 6,
+                      iconOn: Icons.assignment_turned_in,
+                      iconOff: Icons.help,
+                      colorOn:
+                          Colors.blue[400], //Color.fromRGBO(50, 172, 121, 1),
+                      colorOff: Colors.grey[400],
+                      onChanged: (_) {
+                        // showDialog(
+                        //   context: context,
+                        //   builder: (BuildContext context) => _buildPopupDialog(context),
+                        // );
+                      },
+                    ),
+                  ),
